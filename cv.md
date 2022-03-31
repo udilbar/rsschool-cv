@@ -73,3 +73,19 @@ var longestCommonPrefix = function(strs) {
   - Implemented the data structure of the Billing system by using Entity Framework Core technology. Covered code with Unit Tests in C#, resulting in 90% test coverage.
   - Developed full stack SPA for job openings platform using NodeJS that features multilanguage database structure support via SQLite. Optimized code quality by 10%.
   - Worked in a team of more than 15 people which included frontend and backend developers and UX/UI designers. Teamwork was managed using Jira software and Git version control system.
+
+## Education
+
+- **Tashkent University of Information and Technologies** - _Tashkent, Uzbeksitan_
+  Bachelor of Economics and Management, September 2019 – May 2023 (expected)
+
+- **Najot ta'lim learning center** – _Tashkent, Uzbekistan_
+  Full Stack Web Programming, July 2020 – May 2021
+
+- **Academic lyceum under Turin Politechnic University in Tashkent** – _Tashkent, Uzbekistan_
+  Exact Sciences, September 2017 – June 2019
+
+## Languages:
+
+- Uzbek - Native
+- English - Intermediate
