@@ -1,16 +1,16 @@
 # Norqobulova Dilbar
 
-## Contact Information:
+## CONTACT INFORMATION:
 
 - _Phone number:_ +998 (90)018-17-14
 - _Email address:_ ndilbar1618@gmail.com
 - _Linkedin profile:_ https://linkedin.com/in/ndn
 
-## Objective:
+## OBJECTIVE:
 
 Friendly, creative, self-motivated Full Stack Web Developer with a half year of experience in building, developing, and managing websites is looking for a part-time frontend or backend job position to gain experience with skilled teammates.
 
-## Skills:
+## SKILLS:
 
 - HTML
 - CSS
@@ -23,7 +23,7 @@ Friendly, creative, self-motivated Full Stack Web Developer with a half year of 
 - SQLite
 - Git
 
-## Code example:
+## CODE EXAMPLE:
 
 **Find the longest common prefix string amongst an array of strings:**
 
@@ -61,7 +61,7 @@ var longestCommonPrefix = function(strs) {
 };
 ```
 
-## Experience
+## EXPERIENCE
 
 - **Uztelecom – Tashkent, Uzbekistan, _April 2021 – September 2021_**
 
@@ -74,7 +74,7 @@ var longestCommonPrefix = function(strs) {
   - Developed full stack SPA for job openings platform using NodeJS that features multilanguage database structure support via SQLite. Optimized code quality by 10%.
   - Worked in a team of more than 15 people which included frontend and backend developers and UX/UI designers. Teamwork was managed using Jira software and Git version control system.
 
-## Education
+## EDUCATION
 
 - **Tashkent University of Information and Technologies** - _Tashkent, Uzbeksitan_
   Bachelor of Economics and Management, September 2019 – May 2023 (expected)
@@ -85,7 +85,7 @@ var longestCommonPrefix = function(strs) {
 - **Academic lyceum under Turin Politechnic University in Tashkent** – _Tashkent, Uzbekistan_
   Exact Sciences, September 2017 – June 2019
 
-## Languages:
+## LANGUAGES:
 
 - Uzbek - Native
 - English - Intermediate
