@@ -60,3 +60,16 @@ var longestCommonPrefix = function(strs) {
     return getPrefix(strs, 0, strs.length - 1);
 };
 ```
+
+## Experience
+
+- **Uztelecom – Tashkent, Uzbekistan, _April 2021 – September 2021_**
+
+  **Full Stack Web Developer**
+
+  - Participated in the rebuilding process of admin dashboard for Uztelecom's official website using React custom hooks and separation of independent parts into React Components.
+  - Integrated PostgreSQL functions and triggers that lead to a 10x reduction of requests to the server. API responses were optimized using Hasura GraphQL.
+  - Participated in the development of an internal messenger app in Telegram-like design for a company of more than 200 employees.
+  - Implemented the data structure of the Billing system by using Entity Framework Core technology. Covered code with Unit Tests in C#, resulting in 90% test coverage.
+  - Developed full stack SPA for job openings platform using NodeJS that features multilanguage database structure support via SQLite. Optimized code quality by 10%.
+  - Worked in a team of more than 15 people which included frontend and backend developers and UX/UI designers. Teamwork was managed using Jira software and Git version control system.
