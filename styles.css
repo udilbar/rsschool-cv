@@ -233,3 +233,64 @@ a:hover {
 .work .work-list li a:hover {
   border-bottom: 1px solid #333;
 }
+.boxes {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box {
+  background-color: #f8f9fa;
+  list-style: none;
+  width: 32%;
+  height: auto;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+.box a {
+  position: relative;
+  display: block;
+  height: 100%;
+}
+.img-fluid {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border: 1px solid #8c8c8c;
+  border-radius: 7px;
+}
+.box-bg-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 7px;
+  transform: scale(0);
+  transition: transform 0.3s ease-in;
+}
+.box a:hover .box-bg-title {
+  transform: scale(1);
+}
+.box-bg {
+  position: relative;
+}
