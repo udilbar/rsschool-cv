@@ -123,7 +123,7 @@
  */
 function commonPrefix (left, right) {
     let min = Math.min(left.length, right.length);
-    for (let i = 0; i < min; i++) {
+    for (let i = 0; i &lt; min; i++) {
         if ( left.charAt(i) != right.charAt(i) )
             return left.substring(0, i);
     }
