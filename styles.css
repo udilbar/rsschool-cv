@@ -294,3 +294,33 @@ a:hover {
 .box-bg {
   position: relative;
 }
+footer {
+  padding: 50px 0 20px 0;
+}
+footer .social {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+footer .social li {
+  list-style: none;
+  margin-right: 20px;
+}
+footer .social li a {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  color: #999;
+}
+footer .social li a span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/github.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 10px;
+}
+footer p {
+  margin-bottom: 0;
+}
