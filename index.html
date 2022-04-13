@@ -15,6 +15,11 @@
       rel="stylesheet"
       type="text/css"
     />
+    <style>
+      .intro h1:before {
+        content: "DILBAR";
+      }
+    </style>
   </head>
   <body>
     <header class="main-nav">
@@ -73,6 +78,76 @@
             <li>LinkedIn profile</li>
             <li>
               <a target="_blank" href="https://www.linkedin.com/in/ndn">NDN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Technical Skills -->
+      <div class="skills section second" id="skills">
+        <div class="container">
+          <h2>Technical<br />Skills</h2>
+          <ul class="skill-list">
+            <li>Web Technology</li>
+            <li>HTML / CSS / SASS / Bootstrap / Javascript</li>
+          </ul>
+          <ul class="skill-list">
+            <li>Framework</li>
+            <li>React / Svelte</li>
+          </ul>
+          <ul class="skill-list">
+            <li>Backend</li>
+            <li>Node.js / Express.js</li>
+          </ul>
+          <ul class="skill-list">
+            <li>Database</li>
+            <li>MySQL / SQLite / PostgreSQL</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Code Example -->
+      <div class="award section second" id="code-example">
+        <div class="container">
+          <h2>Code<br />Example</h2>
+          <ul class="award-list">
+            <li>
+              <b>Find the longest common prefix string amongst an array of strings:</b>
+            </li>
+            <li>
+              <pre class="highlight">
+<code>
+/**
+ * @param {string[]} strs
+ * @return {string}
+ */
+function commonPrefix (left, right) {
+    let min = Math.min(left.length, right.length);
+    for (let i = 0; i < min; i++) {
+        if ( left.charAt(i) != right.charAt(i) )
+            return left.substring(0, i);
+    }
+    return left.substring(0, min);
+}
+
+var getPrefix = function(strs, l, r) {
+    if (l === r) {
+        return strs[l];
+    } else {
+        let mid = Math.floor((l + r) / 2);
+        let lcpLeft = getPrefix(strs, l, mid);
+        let lcpRight = getPrefix(strs, mid + 1, r);
+        return commonPrefix(lcpLeft, lcpRight);
+    }
+}
+
+var longestCommonPrefix = function(strs) {
+    if (strs === null || strs.length === 0) return "";
+
+    return getPrefix(strs, 0, strs.length - 1);
+};
+</code>
+</pre>
             </li>
           </ul>
         </div>
