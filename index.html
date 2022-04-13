@@ -33,5 +33,73 @@
         </nav>
       </div>
     </header>
+
+    <main>
+      <div class="intro section" id="about">
+        <div class="container">
+          <p>Hi, I’m Norqobulova Dilbar</p>
+          <div class="units-row units-split wrap">
+            <div class="unit-20">
+              <img src="img/logo.png" alt="NDN's logo" />
+            </div>
+            <div class="unit-80">
+              <h1>I’m a<br /><span id="typed"></span></h1>
+            </div>
+            <p>
+              Friendly, creative, self-motivated Full Stack Web Developer with a
+              half year of experience in building, developing, and managing
+              websites is looking for a part-time frontend or backend job
+              position to gain experience with skilled teammates.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="work section second" id="contacts">
+        <div class="container">
+          <h2>Contact<br />Information</h2>
+          <ul class="work-list">
+            <li>Phone Number</li>
+            <li><a href="tel:+998900181714">+998 (90)018 17 14</a></li>
+          </ul>
+          <ul class="work-list">
+            <li>Email Address</li>
+            <li>
+              <a href="mailto:ndilbar1618@gmail.com">ndilbar1618@gmail.com</a>
+            </li>
+          </ul>
+          <ul class="work-list">
+            <li>LinkedIn profile</li>
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/ndn">NDN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+      function newTyped() {}
+      $(function () {
+        $("#typed").typed({
+          typeSpeed: 90,
+          backDelay: 700,
+          contentType: "html",
+          loop: !0,
+          resetCallback: function () {
+            newTyped();
+          },
+        }),
+          $(".reset").click(function () {
+            $("#typed").typed("reset");
+          });
+      });
+    </script>
   </body>
 </html>
