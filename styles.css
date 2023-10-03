@@ -316,7 +316,7 @@ footer .social li a span {
   display: block;
   width: 40px;
   height: 40px;
-  background-image: url("../img/github.png");
+  background-image: url("./img/github.png");
   background-repeat: no-repeat;
   background-size: contain;
   margin-right: 10px;
